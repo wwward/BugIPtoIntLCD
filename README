@@ -1,0 +1,12 @@
+Copyright 2011 William Ward - released under the GPLv2 license.
+
+This Java program simply queries the Bug's internal service structure
+to obtain the IPv4 address of eth1 (or whatever you hard-code) and echo
+that value to the internal LCD on the original Bug Labs bug base.
+This is rather helpful.
+
+I wrote it very quickly, it does not auto-select between WiFi and
+wired, and it does not refresh automatically.
+
+Use the Dragonfly SDK v1.6.x or so to load this on your Bug.
+
